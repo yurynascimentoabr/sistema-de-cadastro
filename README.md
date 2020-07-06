@@ -1,3 +1,3 @@
 # sistema-de-cadastro
 
-Sistema que esquematiza como funciona a inserção, consulta, edição e remoção de dados em um banco de dados.
+Sistema simplificado que esquematiza como funciona a inserção, consulta, edição e remoção de dados em um banco de dados.
