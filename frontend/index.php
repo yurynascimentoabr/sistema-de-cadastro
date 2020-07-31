@@ -3,7 +3,7 @@
     <body>
         <div>Cadastro</div><br>
         <!-- Formulario para inserção de dados no Banco 'Dados' -->
-        <form name="form1" method="POST" action="backend/salvar.php">
+        <form name="form1" method="POST" action="../backend/insert.php">
         Nome:<br><input type="text" name="nome" required><br>
         Senha:<br><input type="password" name="senha" required>
         <input type="submit" value="Salvar"><br>
@@ -19,7 +19,7 @@
                         echo '<tr><td>'.$resultado['ID'].'</td>
                         <td>'.$resultado['NOME'].'</td>
                         <td>'.$resultado['SENHA'].'</td>
-                        <td><a href="backend/delete.php?id='.$resultado['ID'].'">Excluir</a></td>
+                        <td><a href="../backend/delete.php?id='.$resultado['ID'].'">Excluir</a></td>
                         <td><a href="atualizar.php?id='.$resultado['ID'].'">Atualizar</a></td></tr>';
                     }
             ?>

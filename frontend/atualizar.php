@@ -12,7 +12,7 @@
 <html>
     <head></head>
     <body>
-        <form method="POST" action="backend/update.php">
+        <form method="POST" action="../backend/update.php">
             <br>Novo nome:<br><input type="text" name="novonome" required>
             <br>Nova senha:<br><input type="password" name="novasenha" required>
             <input type="hidden" name="id" value="<?php echo $id; ?>">

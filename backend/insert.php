@@ -6,5 +6,5 @@
     $sql="Insert into usuario (NOME, SENHA) values ('".$nome."', '".$senha."')";
     $insert=$connect -> query($sql);
     mysqli_close($connect);
-    header("Location:../index.php");
+    header("Location:../frontend/index.php");
     ?>
